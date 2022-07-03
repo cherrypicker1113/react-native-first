@@ -5,6 +5,14 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "strict": true,
+    "baseUrl": "./",
+    "esModuleInterop": true, 
+    "forceConsistentCasingInFileNames": true 
+  },
 }
